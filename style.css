@@ -36,3 +36,14 @@ footer {
   padding: 1rem;
   background: #eee;
 }
+
+.completed {
+  color: gray;
+  opacity: 0.6;
+}
+
+.completed::before {
+  content: "✔ Completed — ";
+  font-weight: bold;
+  color: gray;
+}
